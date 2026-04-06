@@ -1,0 +1,93 @@
+.geral{
+    background:crimson;
+    font-family: D;
+    font-size: xx-large;
+    text-align: center;
+}
+@font-face {
+    font-family: D;
+    src: url(../font/Qdbettercomicsans-jEEeG.ttf);
+}
+div{
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-size: 35px;
+}
+/* CSS Reset */
+
+/* Remove margens, paddings e define box-sizing */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove estilos padrão de listas */
+ul, ol {
+  list-style: none;
+  font-size: 15px;
+}
+
+/* Remove decoração de links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Normaliza imagens */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Remove estilos padrão de formulário */
+input, button, textarea, select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* Evita problemas com fontes */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Define altura padrão */
+html, body {
+  height: 100%;
+}
+
+/* Remove estilos de tabela */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Botões clicáveis */
+button {
+  cursor: pointer;
+}
+
+/* Ajuste de headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+li{
+  font-size: 35px;
+}
+.cards-container{
+    display:flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    gap: 20px;
+  
+}
+.texto1{
+  color: white;
+  font-size: medium;
+}
